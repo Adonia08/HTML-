@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="9Linkstyle.css">
+    </head>
+    <body>
+        <!--a tag defines hyperlink-->
+        <!--The link text is the part that will be visible to the reader-->
+        <a href = "https://en.wikipedia.org/wiki/Helen_Keller">Helen Keller</a>
+        <!--The target attribute specifies where to open the linked document-->
+        <!--Default. Opens the document in the same window/tab as it was clicked-->
+        <p>SELF - Default</p>
+        <a href = "https://en.wikipedia.org/wiki/Helen_Keller" target="_self">Helen Keller</a>
+        <p>BLANK - New tab</p>
+        <a href = "https://en.wikipedia.org/wiki/Helen_Keller" target="_blank">Helen Keller</a>
+        <p>PARENT - Parent frame</p>
+        <a href = "https://en.wikipedia.org/wiki/Helen_Keller" target="_parent">Helen Keller</a>
+        <p>TOP - Full body of the window</p>
+        <a href = "https://en.wikipedia.org/wiki/Helen_Keller" target="_top">Helen Keller</a>
+        <p>Absolute URL - Full web address</p>
+        <a href = "https://en.wikipedia.org/wiki/Helen_Keller" target="_self">Helen Keller</a>
+        <p>Relative URL - Local link</p>
+        <a href = "SFL1.asp">Helen Keller</a>
+        <p>Image as Link</p>
+        <a href = "SFL1.asp">
+            <img src = "image2.jpg" alt = "image not available" width="350" height="500">
+        </a>
+        <p>Link to send new email use mailto</p>
+        <a href="mailto:someone@example.com">Send email</a>
+        <p>Button as a link</p>
+        <!--Javascript allows you to specify what happens at certain events, such as a click of a button-->
+        <!--document.location is a read-only Location object-->
+        <button onclick = "document.location = 'image1.jpg'">Love</button>
+        <p>Tooltip in a link</p>
+        <a href = "https://www.who.int/" title = "More about WHO">WHO</a>
+        <a href="https://www.skillshare.com/en/blog/19-indispensable-embroidery-stitches/">Blog</a>
+    </body>
+</html>

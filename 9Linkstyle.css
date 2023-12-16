@@ -1,0 +1,27 @@
+body{
+    background-color: hsl(0, 50%, 100%);
+}
+/*color for link*/
+a:link {
+    color: #087e08;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: lightskyblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active{
+    color: #ff0000;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:hover{
+    color:brown;
+}
+p { 
+    color: black;
+    font-size: large;
+    font-family: courier;
+}
